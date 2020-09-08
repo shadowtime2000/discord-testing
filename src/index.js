@@ -13,7 +13,7 @@ function channelMsg(content, bot, author = null) {
     content,
     channel: {
       send: (msg) => {
-        res = msg;
+        res = msg + "\n";
       },
     },
   });
@@ -156,7 +156,7 @@ function dmMsg(content, bot, author = null) {
     author: {
       ...author,
       send: (msg) => {
-        res = msg;
+        res = msg + "\n";
       },
     },
   });
