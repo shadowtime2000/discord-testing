@@ -1,6 +1,6 @@
 {
   "name": "discord-testing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A testing library for Discord.js bots",
   "main": "src/index.js",
   "scripts": {
